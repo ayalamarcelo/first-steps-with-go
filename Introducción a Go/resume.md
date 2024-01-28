@@ -1,0 +1,7 @@
+# Resumen
+
+Nuestro objetivo en este módulo era guiarle por los primeros pasos con Go. Se ha descrito cómo configurar un entorno de trabajo para crear proyectos en Go. Ha usado Visual Studio Code para escribir programas rápidamente siguiendo los estándares de Go. Al crear un programa de Hello World! típico, aprendió a compilar y ejecutar programas escritos en Go.
+
+Recuerde: todos los proyectos de Go comparten la misma área de trabajo en el equipo. Es recomendable crear todos los proyectos en el directorio $GOPATH/src. Pero hay ocasiones en las que tal vez tenga que crear proyectos en otra ubicación. En un próximo módulo, describiremos cómo puede almacenar el código del proyecto en una ubicación diferente.
+
+Por último, ha visto la diferencia entre los comandos go build y go run. El comando go build compila el programa y, si no hay ningún error, genera un archivo ejecutable binario que se puede ejecutar sin usar Go. Normalmente, este comando se usa para generar los archivos binarios de la aplicación que se usarán para implementar la aplicación en otro entorno. Además, el comando go run compila y ejecuta la aplicación sin generar un archivo binario. Usará este comando al desarrollar y probar la aplicación localmente.
